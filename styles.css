@@ -1,0 +1,35 @@
+body {
+ background-color: rgb(85, 84, 84);
+ }
+
+
+
+#versao {
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.596);
+ }
+
+.DIV01 {
+    background-color: black;
+}
+#titulo {
+    position: relative;
+    left: 40%;
+    font-size: 30px;
+    font-style: italic;
+    color: rgb(138, 136, 136);
+ }
+ .texto_principal {
+    position: relative;
+    left: 30%;
+    border-style:"solid"; 
+    background-color: rgb(144, 146, 10);
+    font-size: 40px;
+    font-style: oblique;
+    color: rgb(255, 255, 255);
+ } 
+.iamgen01 {
+    position: absolute;
+    left: 30%;
+    top: 20%;
+}
