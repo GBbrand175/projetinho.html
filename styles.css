@@ -1,35 +1,48 @@
 body {
- background-color: rgb(85, 84, 84);
+ background-color: rgb(0, 0, 0);
+ background-image: url("file:///C:/Users/usu%C3%A1rio/Pictures/fundo_site.png");
  }
 
+.texto_principal {
+    
+    text-align: center;
+    font-style: inherit;
+    background-color: rgb(255, 255, 255);
+    color: rgb(25, 26, 24);
+    animation: mymove 6s infinite;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes mymove {
+    from {top: 0px;}
+    to {top: 200px; background-color: rgb(255, 238, 0); color: rgb(0, 0, 0);}
 
-
-#versao {
-    font-style: italic;
-    color: rgba(0, 0, 0, 0.596);
- }
-
-.DIV01 {
-    background-color: black;
-}
-#titulo {
-    position: relative;
-    left: 40%;
-    font-size: 30px;
-    font-style: italic;
-    color: rgb(138, 136, 136);
- }
- .texto_principal {
-    position: relative;
-    left: 30%;
-    border-style:"solid"; 
-    background-color: rgb(144, 146, 10);
-    font-size: 40px;
-    font-style: oblique;
-    color: rgb(255, 255, 255);
- } 
+} 
 .iamgen01 {
-    position: absolute;
+    position:relative;
     left: 30%;
     top: 20%;
+    border: 3px solid yellow;
+    border-style:double;
+}
+
+.home {
+  color: aqua;
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 16px;
+  font-size: 24px;
+  line-height: 1;
+  text-align: center;
+  background-color: brown;
+  position: relative;
+  animation: myfirst 10s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes myfirst {
+  0%   {background: rgb(0, 0, 0); left: 0px; }
+  25%  {background: rgb(255, 255, 255); left: 25px; }
+  50%  {background: rgb(0, 0, 0); left: 0px; }
+  75%  {background: rgb(255, 255, 255); left: 25px; }
+  100% {background: rgb(0, 0, 0); left: 0px; }
 }
