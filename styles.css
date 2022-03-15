@@ -46,3 +46,15 @@ body {
   75%  {background: rgb(255, 255, 255); left: 25px; }
   100% {background: rgb(0, 0, 0); left: 0px; }
 }
+#botao1 {
+  color: yellow;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  left: 48%;
+  
+
+}
